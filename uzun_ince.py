@@ -168,4 +168,4 @@ note(C*4, 1.0)
 
 sd.play(song, fs)
 sd.wait()
-sf.write("song.wav", np.column_stack((song, song)), fs)
+sf.write("uzun_ince.wav", np.column_stack((song, song)), fs)
